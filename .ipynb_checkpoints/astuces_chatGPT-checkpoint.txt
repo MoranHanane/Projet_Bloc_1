@@ -1,0 +1,16 @@
+1. je ne retrouve pas de tag <ol> quand je fais ctrl+f "ol" dans le code source de la page (view-source:https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html)
+2. à quoi sert le "_" de "class_" dans la ligne "for v in OL.find_all(name ='article' , class_ = 'product_pod')"
+3. que signifient les crochets dans la portinon de code "w.a.attrs['href']"?
+4. je n'ai toujours pas compris les parties "a_s = ul.find_all('a')"  et "cat = a_s[2].text" de "get_cat(url: str)".
+   Peux-tu me réexpliquer avec plus de détail et me donner un ou des exemples?
+
+
+4. Explication détaillée de a_s = ul.find_all('a') et cat = a_s[2].text
+
+
+Voici désormais le site que je souhaite scrapper: https://www.europeana.eu/fr/search?page=1&qf=collection%3Anewspaper&qf=LANGUAGE%3A"fr"&qf=COUNTRY%3A"France"
+j'ai appliqué le filtre suivant dans la page de recherche : 
+thème = journeaux , pays fournisseur = france , langue = français.
+
+Après avoir appliqué ce filtre, 376 070 résultats apparaissent
+

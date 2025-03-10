@@ -1,0 +1,31 @@
+Europeana
+
+
+voici en pièce-jointe un extrait des résultats que j'ai obtenus via ma requête API "api_url = "https://api.europeana.eu/record/v2/search.json?query=LeFigaro&wskey=svenoilce" sur le site d'Europeana. 
+
+Pour rappel, il s'agit d'un site contenant des objets très variés tels que des articles; des livres, des journaux, des photos, des cartes, etc. Moi je ne suis intéressé que par les articles de journaux français (j'essaye avec "Le Figaro" dans un premier temps, puis j'élargirai éventuellement mon scope si j'ai moins de 1000 résultats).
+
+Aide moi à extraire les informations importantes afin d'affiner ma requête API, puis de relancer une requête pour obtenir des résultats centrées sur les métadonnées suivantes: Contributors = [à extraire], Publisher = Figaro (Paris),Type of item = Newspaper, Providing institution = [à extraire], Aggregator = [à extraire], Rights statement for the media in this item (unless otherwise specified) = [à extraire], Rights= 
+[à extraire], 
+Issue date = [à extraire],
+Source = [à extraire],
+Identifier = [à extraire],
+Extent = [à extraire],
+Language = fr,
+Is part of= [à extraire],
+Relations= [à extraire],
+Providing country = 
+France, 
+Collection name= [à extraire],
+First time published on Europeana= [à extraire],
+Last time updated from providing institution= [à extraire],
+
+
+Je n'observe quasiment aucun des types de métadonnées que je souhaite extraire (très bon exemple: https://www.europeana.eu/en/item/9200408/BibliographicResource_3000113908791) dans les résultats de ma requête API alors que j'ai explicitement indiqué "query=LeFigaro".
+Comment améliorer ma requête?
+Pourquoi les champs des métadonnées que j'ai mentionnés ci-dessus et que l'on observe pour la page de résultat https://www.europeana.eu/en/item/9200408/BibliographicResource_3000113908791 n'apparaissent pas dans les résultats de la requête API ?
+
+
+
+
+

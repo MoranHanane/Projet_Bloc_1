@@ -1,0 +1,13 @@
+Voilà mon script .py:
+"
+
+"
+
+J'ai fait un pip freeze > requirements.txt sur au sein de mon environnement virtuel que j'utilise pour runner mon fichier .py. 
+
+j'aimerais désormais:
+1. versionner tout mon dossier (C:\Users\Utilisateur\Documents\Python_notebooks\Projet_Bloc_1) dans un dépot GitHub
+
+2. utiliser chrontab sur wsl afin d'automatiser une tâche simple comme, par exemple: la mise à jour des données, l'exécution de requêtes read (ou autre), le commit et le push de mon dépôt GitHub (peut-être la tâche la plus simple et la plus utile?).
+
+Indique moi une procédure stp.

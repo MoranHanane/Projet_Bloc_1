@@ -1,0 +1,239 @@
+résultats via le search :
+https://gallica.bnf.fr/services/engine/search/sru?operation=searchRetrieve&version=1.2&startRecord=0&maximumRecords=50&page=1&collapsing=true&exactSearch=false&query=%28dc.type%20all%20%22fascicule%22%29%20and%20%28ocr.quality%20all%20%22Texte%20disponible%22%29%20or%20%28dc.formatspecific%20all%20%22epub%22%20or%20dc.formatspecific%20adj%20%22epub_accessible%22%29%20or%20%28dc.formatspecific%20adj%20%22three_d%22%29%20or%20%28dc.types%20adj%20%22Document%20%C3%A9lectronique%22%20or%20dc.types%20adj%20%22fichier%20numerique%22%29%20and%20%28%28colnum%20adj%20%22allcoll%22%29%20or%20%28dewey%20all%20%22all%22%29%29
+
+
+
+résultats via l'API:
+https://gallica.bnf.fr/SRU?version=1.2&operation=searchRetrieve%20&query=dc.type%20all%20%22fascicule%22%20and%20ocr.quality%20all%20%22Texte%20disponible%22%20&maximumRecords=1000
+
+
+
+
+
+📌 Explication des paramètres
+dc.type all "fascicule"
+
+Ce terme regroupe les journaux et revues numérisés sur Gallica.
+Il remplace périodique, journal et revue qui ne fonctionnent pas.
+ocr.quality all "Texte disponible"
+
+Filtre pour ne récupérer que les documents avec un texte OCR lisible (exclut les images scannées sans reconnaissance de texte).
+maximumRecords=1000
+
+Demande à l’API de renvoyer 1000 résultats au lieu du nombre par défaut (souvent 50)
+
+
+
+
+
+"Étape 1.1 - Récupérer les 18226 résultats avec pagination"
+
+
+Il ne me faut pas récupérer 18226 résultats, mais en récupérer au moins 
+5000 par exemple.
+Tu m'as proposé le paramètre maximumRecords=1000 dans la requête précédente, mais tu as mal lu la doc de l'API (https://api.bnf.fr/fr/api-gallica-de-recherche#/): le chiffre doit être compris entre 0 et 50.
+
+Propose moi maintenant un script pour mon notebook python qui va agréger des résultats en jouant sur les paramètres startRecord, maximumRecords et collapsing (via, par exemple, une boucle qui va lancer plusieurs requêtes API) afin de récupérer au moins 5000 résultats.
+
+" Étape 1.2 - Extraire les métadonnées importantes"
+
+Je ferai cela via une agrégation de données grâce à un dataframe sur mon notebook après l'étape 2. Web Scraping complémentaire
+
+
+"Etape 2: Web Scraping complémentaire"
+
+Je préfèrerais plutôt utiliser la méthode suivante: à partir de l'url qui m'affiche les résultats de recherche de la page  {n} sur 365 (https://gallica.bnf.fr/services/engine/search/sru?operation=searchRetrieve&version=1.2&startRecord=0&maximumRecords=50&page={n}&collapsing=true&exactSearch=false&query=%28dc.type%20all%20"fascicule"%29%20and%20%28ocr.quality%20all%20"Texte%20disponible"%29%20or%20%28dc.formatspecific%20all%20"epub"%20or%20dc.formatspecific%20adj%20"epub_accessible"%29%20or%20%28dc.formatspecific%20adj%20"three_d"%29%20or%20%28dc.types%20adj%20"Document%20électronique"%20or%20dc.types%20adj%20"fichier%20numerique"%29%20and%20%28%28colnum%20adj%20"allcoll"%29%20or%20%28dewey%20all%20"all"%29%29#resultat-id-1), je veux créer un script python qui va aller récupérer, pour chacun des 50 résultats par page qui s'affiche, les résultats contenus dans chacun des champs qui s'affichent quand on clique sur "informations détaillées" (exemple pour le 1er résultat = url suivante: https://gallica.bnf.fr/services/engine/search/sru?operation=searchRetrieve&version=1.2&startRecord=0&maximumRecords=50&page=1&collapsing=true&exactSearch=false&query=%28dc.type%20all%20"fascicule"%29%20and%20%28ocr.quality%20all%20"Texte%20disponible"%29%20or%20%28dc.formatspecific%20all%20"epub"%20or%20dc.formatspecific%20adj%20"epub_accessible"%29%20or%20%28dc.formatspecific%20adj%20"three_d"%29%20or%20%28dc.types%20adj%20"Document%20électronique"%20or%20dc.types%20adj%20"fichier%20numerique"%29%20and%20%28%28colnum%20adj%20"allcoll"%29%20or%20%28dewey%20all%20"all"%29%29# ).
+Puis mon script répèterai l'opération sur la page n+1 jusqu'à avoir obtenu des informations détaillés pour au moins 5000 revues.
+Je pourrais utiliser par exemple un outil comme selenium pour réaliser cela.
+NB: j'ai remarqué qu'il est possible d'ouvrir en même temps les informations détaillées de tous les résultats qui s'affichent sur une page en répétant la même opération (cf. capture d'écran ci-jointe).  
+
+
+
+
+
+
+
+J'ai supprimé "service" dans la configuration de mon selenium et je ne reçois plus de message d'erreur désormais. oublions ce point si cela n'a pas d'influence sur ce que je vais te dire. 
+Ca avance dans la bonne voie désormais, mais il y a plusieurs points à considérer/corriger cela dit.
+
+
+
+Points à considérer:
+1. toutes les urls extraites dans ma liste "results" contiennent leur métadonnées au sein du dropdown "Informations détaillées".
+2. j'ai suggéré selenium mais si tu considères qu'une librairie comme beautiful soup est plus adéquate, pourquoi pas!
+3. j'ai lancé la le bloc de code de l'étape 2 que tu m'as suggéré après avoir enlevé  "service" , cela m'a retourné le résultat suivant, dont j'ai extrait une partie du code: "Erreur sur https://gallica.bnf.fr/ark:/12148/cb326873554/date : Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div/dl/dd[1]"}
+  (Session info: chrome=132.0.6834.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7940A02F5+28725]
+	(No symbol) [0x00007FF794002AE0]
+	(No symbol) [0x00007FF793E9510A]
+	(No symbol) [0x00007FF793EE93D2]
+	(No symbol) [0x00007FF793EE95FC]
+	(No symbol) [0x00007FF793F33407]
+	(No symbol) [0x00007FF793F0FFEF]
+	(No symbol) [0x00007FF793F30181]
+	(No symbol) [0x00007FF793F0FD53]
+	(No symbol) [0x00007FF793EDA0E3]
+	(No symbol) [0x00007FF793EDB471]
+	GetHandleVerifier [0x00007FF7943CF30D+3366989]
+	GetHandleVerifier [0x00007FF7943E12F0+3440688]
+	GetHandleVerifier [0x00007FF7943D78FD+3401277]
+	GetHandleVerifier [0x00007FF79416AAAB+858091]
+	(No symbol) [0x00007FF79400E74F]
+	(No symbol) [0x00007FF79400A304]
+	(No symbol) [0x00007FF79400A49D]
+	(No symbol) [0x00007FF793FF8B69]
+	BaseThreadInitThunk [0x00007FFC0A7D259D+29]
+	RtlUserThreadStart [0x00007FFC0BA0AF38+40]"   
+4. tu remarqueras que j'ai modifié " title = driver.find_element(By.XPATH, '//h1').text" par "title = driver.find_element(By.XPATH, '/html/body/div[3]/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div/dl/dd[1]').text" dans la fonction get_metadata_from_notice(url) après avoir étudié la structure du code source, puis copié le Xpath complet. Cela n'a rien changé et me retourne quasiment le même résultat que ci-dessus: aucun des champs "url", "title" et "author" ne se remplit en executant le script.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+I. voilà le script que j'ai executé en utilisant selenium: 
+"from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+
+
+# Configuration de Selenium
+chrome_options = Options()
+chrome_options.add_argument("--headless")  # Mode sans interface graphique
+# service = Service('')                    # A remplacer par le chemin
+
+
+# Remplacer par le chemin de le ChromeDriver si nécessaire
+driver = webdriver.Chrome( options=chrome_options)
+
+def get_metadata_from_notice(url):     #Récupèration des métadonnées d'une page après avoir cliqué sur le dropdown
+    driver.get(url)
+    #time.sleep(1)  # Laisser le temps au contenu de charger
+    
+    # Essayer de cliquer sur le dropdown avant de récupérer les métadonnées
+    try:
+        # Attendre que la page soit bien chargée (évite `time.sleep`)
+        WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
+
+        # Cliquer sur le dropdown "Informations détaillées"
+        dropdown = WebDriverWait(driver, 2).until(
+            EC.element_to_be_clickable((By.XPATH, "//div[contains(text(), 'Informations détaillées')]"))
+        )
+        dropdown.click()
+        print(f"⚠️ Erreur sur {url} : {e}")
+
+    # Extraction des informations après l'ouverture du dropdown
+    try:
+        metadata = driver.find_element(By.XPATH, "//div[@class='/html/body/div[3]/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div/dl']")  # Remplace 'metadata_class'
+        return metadata.text
+    except:
+        print(f"⚠️ Impossible de récupérer les métadonnées pour {url}")
+        return None
+
+
+# Récupération des métadonnées pour les 5000 résultats
+metadata_list = [get_metadata_from_notice(url) for url in results]
+
+
+driver.quit()
+print("Scraping terminé.")
+print(metadata_list)".
+
+
+A  noter que:
+1. "/html/body/div[3]/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div/dl" correspond au full X-path de l'en tête "notice complète" que j'ai copié-collé à partir du code de la page.
+
+2. je l'avais au préalable remplacé par "/html/body/div[3]/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div/h3" qui est le full X-path de l'ensemble des données contenues dans le bloc "notice complète", que j'ai récupéré de la même façon.
+
+3. ces deux méthodes me retournent à peu près les mêmes résultats, dont voici un extrait: "⚠️ Impossible de récupérer les métadonnées pour https://gallica.bnf.fr/ark:/12148/cb42768809f/date
+⚠️ Erreur sur https://gallica.bnf.fr/ark:/12148/cb452698066/date : Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7940A02F5+28725]
+	(No symbol) [0x00007FF794002AE0]
+	(No symbol) [0x00007FF793E9510A]
+	(No symbol) [0x00007FF793EE93D2]
+	(No symbol) [0x00007FF793EE95FC]
+	(No symbol) [0x00007FF793F33407]
+	(No symbol) [0x00007FF793F0FFEF]
+	(No symbol) [0x00007FF793F30181]
+	(No symbol) [0x00007FF793F0FD53]
+	(No symbol) [0x00007FF793EDA0E3]
+	(No symbol) [0x00007FF793EDB471]
+	GetHandleVerifier [0x00007FF7943CF30D+3366989]
+	GetHandleVerifier [0x00007FF7943E12F0+3440688]
+	GetHandleVerifier [0x00007FF7943D78FD+3401277]
+	GetHandleVerifier [0x00007FF79416AAAB+858091]
+	(No symbol) [0x00007FF79400E74F]
+	(No symbol) [0x00007FF79400A304]
+	(No symbol) [0x00007FF79400A49D]
+	(No symbol) [0x00007FF793FF8B69]
+	BaseThreadInitThunk [0x00007FFC0A7D259D+29]
+	RtlUserThreadStart [0x00007FFC0BA0AF38+40]"
+
+
+II. Etant donné que cela ne m'a pas donné les résultats que je souhaitais, j'ai ensuite essayé d'utiliser plutôt beautifulsoup que selenium en appliquant le bloc de code que tu m'avais donné plus tôt (import requests
+from bs4 import BeautifulSoup
+
+
+def get_metadata_bs4(url):
+    response = requests.get(url)
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    title = soup.find("h1").text.strip()
+    author = soup.select_one("dl dd:nth-of-type(1)").text.strip()
+
+    return {"url": url, "title": title, "author": author}
+
+print(get_metadata_bs4("https://gallica.bnf.fr/ark:/12148/cb326873554/date"))
+
+# Récupération des métadonnées pour les 5000 résultats
+metadata_list = [get_metadata_bs4(url) for url in results]
+
+
+print("Scraping terminé.")
+print(metadata_list)).
+Cela m'a donné la réponse suivante: "---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+Cell In[12], line 14
+     10     author = soup.select_one("dl dd:nth-of-type(1)").text.strip()
+     12     return {"url": url, "title": title, "author": author}
+---> 14 print(get_metadata_bs4("https://gallica.bnf.fr/ark:/12148/cb326873554/date"))
+     16 # Récupération des métadonnées pour les 5000 résultats
+     17 metadata_list = [get_metadata_bs4(url) for url in results]
+
+Cell In[12], line 9, in get_metadata_bs4(url)
+      6 response = requests.get(url)
+      7 soup = BeautifulSoup(response.text, "html.parser")
+----> 9 title = soup.find("h1").text.strip()
+     10 author = soup.select_one("dl dd:nth-of-type(1)").text.strip()
+     12 return {"url": url, "title": title, "author": author}
+
+AttributeError: 'NoneType' object has no attribute 'text'".
+
+
+
+Quand je vais dans "inspecter élément" > "elements" je peux observer l'arborescence et copier coller les éléments que je souhaite mais seulement après avoir déroulé toutes les flèches, ce qui prend un temps considérable.
+Est-il possible pour-moi de retrouver le code source intégral de la structure des pages scrappées sans avoir à dérouler chaque élément? 
+
+J'aimerais ainsi que tu puisses déterminer:
+1. s'il est possible de scrapper les éléments qui m'intéressent malgré le dropdown.
+2  si c'est possible:  pour chacun des champs que je souhaite remplir, j'aimerais que tu me détermines la ligne le code à utiliser en utilisant des fonctions beautifulsoup pour m'aider (ex: find_next_sibling(name = 'td').text ou descriptions.append(v.p.attrs['class'][1:]).
+
+
+
+
+
+

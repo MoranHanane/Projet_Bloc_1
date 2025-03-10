@@ -1,0 +1,2053 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<srw:searchRetrieveResponse xmlns:ns6="http://gallica.bnf.fr/namespaces/gallica/" xmlns:diag="http://www.loc.gov/zing/srw/diagnostic/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:srw="http://www.loc.gov/zing/srw/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<srw:version>1.2</srw:version>
+<srw:echoedSearchRetrieveRequest>
+<srw:query>dc.type all "fascicule" and ocr.quality all "Texte disponible" </srw:query>
+<srw:version>1.2</srw:version>
+</srw:echoedSearchRetrieveRequest>
+<srw:numberOfRecords>18226</srw:numberOfRecords>
+<srw:extraResponseData><numberOfRecordsDecollapser>6174316</numberOfRecordsDecollapser></srw:extraResponseData>
+<srw:records>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:date>1907</dc:date>
+<dc:description>Périodicité : Mensuel</dc:description>
+<dc:description>Etat de collection : Janv. -août 1914 ; mai, nov. et déc. 1915 ; 1917 (mq. juin et juil.) ; 1918-1919</dc:description>
+<dc:description>Appartient à l’ensemble documentaire : GG14181</dc:description>
+<dc:description>Appartient à l’ensemble documentaire : RhoneAlp1</dc:description>
+<dc:format>Nombre total de vues : 804</dc:format>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb42768809f/date</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>F. Rouet ()</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb42768809f</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Philosophie, histoire, sciences de l'homme, BP-1 (VALENCE 26, CATHEDRALE)</dc:source>
+<dc:subject>Guerre mondiale (1914-1918) -- Aspect religieux</dc:subject>
+<dc:title>Bulletin paroissial (Valence (Drôme), Paroisse de la cathédrale)</dc:title>
+<dc:title>Bulletin paroissial mensuel de la cathédrale de Valence</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>0</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k11533601.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb42768809f/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k11533601.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k11533601.medres</medres>
+<nqamoyen>88.41</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k11533601.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k11533601</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:creator>Association internationale des résidents de la Cité universitaire de Paris. Auteur du texte</dc:creator>
+<dc:date>1985-1986</dc:date>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb452698066/date</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>Association internationale des résidents de la Cité universitaire de Paris (Paris)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb452698066</dc:relation>
+<dc:source>Cité Internationale Universitaire de Paris, 2017-117903</dc:source>
+<dc:title>Aircup (1985)</dc:title>
+<dc:title>Aircup / Association internationale des résidents de la Cité universitaire de Paris</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>1</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k97834461.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb452698066/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k97834461.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k97834461.medres</medres>
+<nqamoyen>99.58</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k97834461.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k97834461</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:date>1934-1936</dc:date>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb45265625z/date</dc:identifier>
+<dc:language>eng</dc:language>
+<dc:language>anglais</dc:language>
+<dc:publisher>[s.n.] (London)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb45265625z</dc:relation>
+<dc:source>Cité Internationale Universitaire de Paris, 2017-118680</dc:source>
+<dc:title>European herald</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>2</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k9785651n.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb45265625z/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k9785651n.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k9785651n.medres</medres>
+<nqamoyen>99.51</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k9785651n.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k9785651n</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:contributor>Boicervoise, André-Alexandre. Directeur de publication</dc:contributor>
+<dc:contributor>Baudouin, François-Jean (1759-1835). Directeur de publication</dc:contributor>
+<dc:creator>France. Auteur du texte</dc:creator>
+<dc:creator>France. Assemblée nationale constituante (1789-1791). Auteur du texte</dc:creator>
+<dc:date>1790-1791</dc:date>
+<dc:description>Variante(s) de titre : Collection générale des décrets rendus par l'Assemblée nationale, et sanctionnés ou acceptés par le Roi</dc:description>
+<dc:description>Variante(s) de titre : Collection générale des décrets rendus par l'Assemblée nationale, avec la mention des sanctions & acceptations données par le Roi</dc:description>
+<dc:description>Variante(s) de titre : Collection générale des décrets rendus par l'Assemblée nationale, faisant suite à la Collection des décrets sanctionnés ou acceptés par le Roi</dc:description>
+<dc:description>Variante(s) de titre : Collection générale des décrets rendus par l'Assemblée nationale, avec la mention des sanctions & acceptations données par le Roi</dc:description>
+<dc:description>Avec mode texte</dc:description>
+<dc:format>Nombre total de vues : 260</dc:format>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb471788931/date</dc:identifier>
+<dc:identifier>NUMP-8086</dc:identifier>
+<dc:identifier>ISSN 29687071</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:publisher>A Paris, chez Baudouin, imprimeur de l'Assemblée nationale, rue du Foin Saint-Jacques, n°. 31. [1790-1791]</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb471788931</dc:relation>
+<dc:relation>A pour reproduction : Collection générale des décrets rendus par l'Assemblée, et sanctionnés ou acceptés par le Roi (Reproduction numérique) = ISSN 3024-482X (https://gallica.bnf.fr)</dc:relation>
+<dc:relation>A pour reproduction : Collection générale des décrets rendus par l'Assemblée, et sanctionnés ou acceptés par le Roi (Reproduction numérique) = ISSN 3024-482X (https://catalog.hathitrust.org/Record/012313980) (t. 1 (mai/déc. 1789)-t. 2 (janv./mai 1790) [rééd.] ; juin 1790-sept. 1791 [en partie réimpr.])</dc:relation>
+<dc:relation>A pour reproduction : Collection générale des décrets rendus par l'Assemblée, et sanctionnés ou acceptés par le Roi (Reproduction numérique) = ISSN 3024-482X (https://catalog.hathitrust.org/Record/011246009) (t. 1 (mai/déc. 1789) [rééd.] ; juin-juil. 1790 ; oct.-déc. 1790 ; mars-mai 1791 ; juil.-août 1791 ; sept. 1791, 2e part.)</dc:relation>
+<dc:relation>A pour reproduction : Collection générale des décrets rendus par l'Assemblée, et sanctionnés ou acceptés par le Roi (Reproduction numérique) = ISSN 3024-482X (https://catalog.hathitrust.org/Record/008981468) (t. 1 (mai/déc. 1789) [rééd.])</dc:relation>
+<dc:relation>A pour reproduction : Collection générale des décrets rendus par l'Assemblée, et sanctionnés ou acceptés par le Roi (Reproduction numérique) = ISSN 3024-482X (https://catalog.hathitrust.org/Record/010481550) (juin 1790 ; août 1790-févr. 1791 ; avr. 1791 ; juil. 1791)</dc:relation>
+<dc:source>Bibliothèque nationale de France</dc:source>
+<dc:title>Collection générale des décrets rendus par l'Assemblée, et sanctionnés ou acceptés par le Roi</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>3</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k9668574f.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb471788931/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k9668574f.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k9668574f.medres</medres>
+<nqamoyen>95.0</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k9668574f.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k9668574f</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:date>1908</dc:date>
+<dc:description>Périodicité : Mensuel</dc:description>
+<dc:description>Etat de collection : Jan. à mars 1914</dc:description>
+<dc:description>Appartient à l’ensemble documentaire : GG14181</dc:description>
+<dc:description>Appartient à l’ensemble documentaire : RhoneAlp1</dc:description>
+<dc:format>Nombre total de vues : 60</dc:format>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb42768804q/date</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>F. Rouet ()</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb42768804q</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Philosophie, histoire, sciences de l'homme, BP-1 (VALENCE, 26, N-D)</dc:source>
+<dc:subject>Guerre mondiale (1914-1918) -- Aspect religieux</dc:subject>
+<dc:title>Bulletin paroissial (Valence (Drôme), Paroisse Notre-Dame)</dc:title>
+<dc:title>Bulletin paroissial mensuel : Notre-Dame de Valence</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>4</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k1153370d.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb42768804q/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k1153370d.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k1153370d.medres</medres>
+<nqamoyen>87.35</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k1153370d.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k1153370d</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:creator>Sarcey de Sutières (17..-18.. ; neveu). Auteur du texte</dc:creator>
+<dc:date>1788-1789</dc:date>
+<dc:description>Variante(s) de titre : Cahiers périodiques du Cours d'agriculture, donnés par souscription.</dc:description>
+<dc:description>Périodicité : Bi-mensuel</dc:description>
+<dc:description>Etat de collection : [t. 1] (1788)-[t. 3] (1789) = n° 1-[26]</dc:description>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb43847111q/date</dc:identifier>
+<dc:identifier>ISSN 24297895</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>A Paris, chez l'auteur, rue de la Sourdiere, n°. 14. M. DCC. LXXXVIII. Avec approbation, & privilege du Roi. - [Tome II :] A Paris, chez l'auteur, rue de Tournon, près le Luxembourg, n°. 5. M. DCC. LXXXVIII. Avec approbation & privilege du Roi. - [Tome III :] A Paris, chez l'auteur, faubourg St-Denis, au coin de la rue de l'Echiquier, et chez la Veuve Vaufleuri, libraire, dans un des pavillons du Palais-Royal. M. DCC. LXXXIX. Avec approbation & privilege du Roi.</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb43847111q</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Sciences et techniques, S-34744</dc:source>
+<dc:title>Cours complet d'agriculture, ou Leçons périodiques sur cet art</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>5</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k9602005z.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb43847111q/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k9602005z.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k9602005z.medres</medres>
+<nqamoyen>95.0</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k9602005z.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k9602005z</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:date>1895-1902</dc:date>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb43667224d/date</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>impr. de Rey, Curial et Cie (Saïgon)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb43667224d</dc:relation>
+<dc:source>Bibliothèque de la Cour de cassation, 2015-163603</dc:source>
+<dc:title>Recueil des instructions, circulaires et avis concernant le service judiciaire de l'Indo-Chine. Supplément</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>6</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k96069415.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb43667224d/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k96069415.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k96069415.medres</medres>
+<nqamoyen>98.5</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k96069415.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k96069415</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:date>194.-194.</dc:date>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb43839458g/date</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>[s.n.][s.n.]</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb43839458g</dc:relation>
+<dc:source>Musée de la Résistance nationale / Champigny-sur-Marne, 2014-129150</dc:source>
+<dc:title>Le Réveil : organe du Parti communiste, section d'Oyonnax</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>7</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k7620941f.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb43839458g/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k7620941f.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k7620941f.medres</medres>
+<nqamoyen>99.55</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k7620941f.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k7620941f</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:creator>Ligue populaire pour le repos du dimanche en France. Auteur du texte</dc:creator>
+<dc:date>1890-1910</dc:date>
+<dc:description>Variante(s) de titre : Ligue populaire pour le repos du dimanche en France</dc:description>
+<dc:description>Avec mode texte</dc:description>
+<dc:format>Nombre total de vues : 7877</dc:format>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb327231426/date</dc:identifier>
+<dc:identifier>ISSN 12500887</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>Guillaumin (Paris)</dc:publisher>
+<dc:publisher>Fischbacher (Paris)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb327231426</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Philosophie, histoire, sciences de l'homme, 8-R-10426</dc:source>
+<dc:title>Bulletin de la Ligue populaire pour le repos du dimanche en France</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>8</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k5674701f.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb327231426/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k5674701f.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k5674701f.medres</medres>
+<nqamoyen>83.31</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k5674701f.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k5674701f</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:contributor>Prévost de Maisons (16..-17..). Auteur présumé du texte</dc:contributor>
+<dc:contributor>Guyot de Merville, Michel (1696-1755). Auteur présumé du texte</dc:contributor>
+<dc:date>1723-1725</dc:date>
+<dc:description>Variante(s) de titre : Le Nouvelliste sans fard.</dc:description>
+<dc:description>Périodicité : Deux fois par semaine (1723) ; une ou deux fois par semaine (1725)</dc:description>
+<dc:description>Avec mode texte</dc:description>
+<dc:format>Nombre total de vues : 222</dc:format>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb32827164n/date</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>Cologne chez la veuve Couraprez. [1723] - A Cleve. [1725]</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb32827164n</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Philosophie, histoire, sciences de l'homme, G-16506</dc:source>
+<dc:title>Le Nouvelliste sans fard. ou la Gazette sans privilege.</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>9</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k6547334h.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb32827164n/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k6547334h.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k6547334h.medres</medres>
+<nqamoyen>82.3</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k6547334h.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k6547334h</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:creator>Académie nationale de médecine (France). Auteur du texte</dc:creator>
+<dc:date>1828-1914</dc:date>
+<dc:description>Variante(s) de titre : Mémoires de l'Académie royale de médecine</dc:description>
+<dc:description>Variante(s) de titre : Mémoires de l'Académie impériale de médecine</dc:description>
+<dc:description>Variante(s) de titre : Mémoires de l'Académie nationale de médecine</dc:description>
+<dc:description>Avec mode texte</dc:description>
+<dc:description>Périodiques</dc:description>
+<dc:format>Nombre total de vues : 31371</dc:format>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb34428663h/date</dc:identifier>
+<dc:identifier>NUMP-10896</dc:identifier>
+<dc:identifier>ISSN 11498838</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:publisher>Baillère [puis] (Paris)</dc:publisher>
+<dc:publisher>Masson (Paris)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb34428663h</dc:relation>
+<dc:relation>A pour reproduction : Mémoires de l'Académie de médecine (Paris. Reproduction numérique) = ISSN 3039-2462 (https://gallica.bnf.fr/ark:/12148/cb34428663h/date)</dc:relation>
+<dc:source>Bibliothèque de l'Académie nationale de médecine, 2012-196299</dc:source>
+<dc:subject>Médecine -- Associations</dc:subject>
+<dc:title>Mémoires de l'Académie de médecine (Paris)</dc:title>
+<dc:title>Mémoires de l'Académie de médecine</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>10</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k6347362b.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb34428663h/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k6347362b.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k6347362b.medres</medres>
+<nqamoyen>99.74</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k6347362b.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k6347362b</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:creator>Alliance nationale pour l'accroissement de la population française. Auteur du texte</dc:creator>
+<dc:date>1899-1921</dc:date>
+<dc:description>Variante(s) de titre : Bulletin trimestriel (Alliance nationale pour l'accroissement de la population française)</dc:description>
+<dc:description>Variante(s) de titre : Bulletin trimestriel de l'Alliance nationale pour l'accroissement de la population française</dc:description>
+<dc:description>Variante(s) de titre : Bulletin mensuel de l'Alliance nationale pour l'accroissement de la population française</dc:description>
+<dc:description>Etat de collection : 1899-1915</dc:description>
+<dc:description>Avec mode texte</dc:description>
+<dc:format>Nombre total de vues : 2257</dc:format>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb34425170p/date</dc:identifier>
+<dc:identifier>ISSN 09960201</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>26 avenue Marceau (Paris)</dc:publisher>
+<dc:publisher>[s.n.] (Paris)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb34425170p</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Philosophie, histoire, sciences de l'homme, 4-LC2-5893</dc:source>
+<dc:title>Bulletin de l'Alliance nationale pour l'accroissement de la population française</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>11</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k5777067z.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb34425170p/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k5777067z.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k5777067z.medres</medres>
+<nqamoyen>92.61</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k5777067z.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k5777067z</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:date>1899-1901</dc:date>
+<dc:description>Variante(s) de titre : Le Tirailleur</dc:description>
+<dc:description>Variante(s) de titre : Le Tirailleur algérien : journal illustré du dimanche : humoristique, satirique, littéraire</dc:description>
+<dc:description>Périodicité : Hebdomadaire</dc:description>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb32877728g/date</dc:identifier>
+<dc:identifier>NUMP-15941</dc:identifier>
+<dc:identifier>ISSN 29732468</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:publisher>[s.n.] (Alger)</dc:publisher>
+<dc:publisher>[s.n.][s.n.] (Mustapha)</dc:publisher>
+<dc:publisher>[s.n.][s.n.] (Alger)</dc:publisher>
+<dc:publisher>[s.n.][s.n.] (Alger)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb32877728g</dc:relation>
+<dc:relation>A pour reproduction : Le Tirailleur algérien (Alger. 1899. Reproduction numérique) = ISSN 2974-0908 (https://gallica.bnf.fr/ark:/12148/cb32877728g/date)</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Droit, économie, politique, JO-90487 (BIS)</dc:source>
+<dc:title>Le Tirailleur algérien (Alger. 1899)</dc:title>
+<dc:title>Le Tirailleur algérien : journal illustré du dimanche : humoristique, littéraire, satirique et politique</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>12</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k1262548g.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb32877728g/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k1262548g.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k1262548g.medres</medres>
+<nqamoyen>97.34</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k1262548g.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k1262548g</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:creator>France. Direction du Trésor. Auteur du texte</dc:creator>
+<dc:creator>Banque de France. Direction générale des services étrangers. Auteur du texte</dc:creator>
+<dc:date>1976</dc:date>
+<dc:description>Avec mode texte</dc:description>
+<dc:format>Nombre total de vues : 365</dc:format>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb34434747s/date</dc:identifier>
+<dc:identifier>NUMP-11084</dc:identifier>
+<dc:publisher>Direction du trésor (Paris)</dc:publisher>
+<dc:publisher>Banque de France (Paris)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb34434747s</dc:relation>
+<dc:source>Banque de France, 2012-189312</dc:source>
+<dc:title>Règlements entre la France et l'extérieur : année... / Ministère de l'économie et des finances, Direction du trésor ; Banque de France, Direction générale des services étrangers</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>13</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k65056320.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb34434747s/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k65056320.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k65056320.medres</medres>
+<nqamoyen>99.96</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k65056320.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k65056320</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:creator>France. Direction du Trésor. Auteur du texte</dc:creator>
+<dc:creator>Banque de France. Direction générale des services étrangers. Auteur du texte</dc:creator>
+<dc:date>1976</dc:date>
+<dc:description>Avec mode texte</dc:description>
+<dc:format>Nombre total de vues : 315</dc:format>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb344347484/date</dc:identifier>
+<dc:identifier>NUMP-10933</dc:identifier>
+<dc:publisher>Direction du trésor (Paris)</dc:publisher>
+<dc:publisher>Banque de France (Paris)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb344347484</dc:relation>
+<dc:source>Banque de France, 2012-189217</dc:source>
+<dc:title>Mouvements de capitaux à long terme entre la France et l'extérieur : année... / Ministère de l'économie et des finances, Direction du trésor ; Banque de France, Direction générale des services étrangers</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>14</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k6362554g.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb344347484/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k6362554g.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k6362554g.medres</medres>
+<nqamoyen>98.51</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k6362554g.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k6362554g</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:creator>Cercle d'études Jacques et Raïssa Maritain. Auteur du texte</dc:creator>
+<dc:date>1980</dc:date>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb34367296s/date</dc:identifier>
+<dc:identifier>ISSN 0248627X</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>Association des amis de Jacques Maritain (Meudon)</dc:publisher>
+<dc:publisher>Cercle d'études Jacques et Raïssa Maritain (Kolbsheim)</dc:publisher>
+<dc:publisher>Association internationale Jacques et Raïssa Maritain (Toulouse)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb34367296s</dc:relation>
+<dc:source>Cercle d'études Jacques et Raïssa Maritain, 2017-18064</dc:source>
+<dc:title>Cahiers Jacques Maritain</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>15</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k9770000f.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb34367296s/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k9770000f.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k9770000f.medres</medres>
+<nqamoyen>99.73</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k9770000f.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k9770000f</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:date>1814-1814</dc:date>
+<dc:description>Etat de collection : 1814</dc:description>
+<dc:description>Appartient à l’ensemble documentaire : HNormand1</dc:description>
+<dc:description>Avec mode texte</dc:description>
+<dc:format>Nombre total de vues : 52</dc:format>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb327866149/date</dc:identifier>
+<dc:identifier>ISSN 24911518</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>A Rouen, chez Veuve Trenchard-Behourt, imprimeur-libraire, rue du Petit-Puits, n°. 23. 1814.</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb327866149</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Littérature et art, YE-24156</dc:source>
+<dc:title>L'Heureux mariage : almanach très-curieux et intéressant, pour la présente année</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>16</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k6128461j.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb327866149/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k6128461j.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k6128461j.medres</medres>
+<nqamoyen>69.19</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k6128461j.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k6128461j</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:contributor>Martonne, Alfred de (1820-1896). Directeur de publication</dc:contributor>
+<dc:contributor>Vibert, Paul (1851-1918). Directeur de publication</dc:contributor>
+<dc:contributor>Chérié, Alfred. Directeur de publication</dc:contributor>
+<dc:date>1874-1878</dc:date>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb34429287n/date</dc:identifier>
+<dc:identifier>ISSN 11495227</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>L. Bonhoure (Paris)</dc:publisher>
+<dc:publisher>Roanne (Paris)</dc:publisher>
+<dc:publisher>Impr. roannaise (Paris)</dc:publisher>
+<dc:publisher>A. Chérié (Paris)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb34429287n</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Littérature et art, YE-33340</dc:source>
+<dc:title>Le Sonnettiste (Paris)</dc:title>
+<dc:title>Le Sonnettiste : recueil poétique et littéraire, paraissant le 1er et le 15 de chaque mois / rédacteur en chef : A. de Martonne</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>17</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k1161709h.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb34429287n/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k1161709h.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k1161709h.medres</medres>
+<nqamoyen>87.76</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k1161709h.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k1161709h</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:creator>Soudan français. Auteur du texte</dc:creator>
+<dc:date>1921-1958</dc:date>
+<dc:description>Périodicité : Bi-mensuel</dc:description>
+<dc:description>Appartient à l’ensemble documentaire : MAEDIGen0</dc:description>
+<dc:description>Appartient à l’ensemble documentaire : MAEDI014</dc:description>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb32802175p/date</dc:identifier>
+<dc:identifier>NUMP-15410</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:publisher>Impr. du Gouvernement (Bamako)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb32802175p</dc:relation>
+<dc:source>Bibliothèque Interuniversitaire Cujas, 2015-309547</dc:source>
+<dc:title>Journal officiel du Soudan français</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>18</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k9663740s.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb32802175p/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k9663740s.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k9663740s.medres</medres>
+<nqamoyen>97.29</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k9663740s.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k9663740s</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:date>1885-1894</dc:date>
+<dc:description>Périodicité : Bimens</dc:description>
+<dc:description>Avec mode texte</dc:description>
+<dc:format>Nombre total de vues : 2673</dc:format>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb328573206/date</dc:identifier>
+<dc:identifier>ISSN 12456438</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>P. Dupont (Paris)</dc:publisher>
+<dc:publisher>Libr. classique A.-N. Lebègue (Bruxelles)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb328573206</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Philosophie, histoire, sciences de l'homme, 8-R-6496</dc:source>
+<dc:title>Revue de l'enseignement secondaire et de l'enseignement supérieur</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>19</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k57499955.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb328573206/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k57499955.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k57499955.medres</medres>
+<nqamoyen>92.93</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k57499955.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k57499955</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:creator>Académie des sciences, belles-lettres et arts (Lyon). Auteur du texte</dc:creator>
+<dc:date>1893</dc:date>
+<dc:description>Variante(s) de titre : Mémoires de l'Académie des sciences, belles-lettres et arts de Lyon. Sciences et lettres</dc:description>
+<dc:description>Périodicité : Annuel (irrégulier)</dc:description>
+<dc:description>Appartient à l’ensemble documentaire : RhoneAlp1</dc:description>
+<dc:description>Avec mode texte</dc:description>
+<dc:format>Nombre total de vues : 7724</dc:format>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb344027481/date</dc:identifier>
+<dc:identifier>ISSN 07678975</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>J.B. Baillieres (Paris)</dc:publisher>
+<dc:publisher>C. Palud (Lyon)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb344027481</dc:relation>
+<dc:source>Bibliothèque nationale de France</dc:source>
+<dc:title>Mémoires de l'Académie des sciences, belles-lettres et arts de Lyon</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>20</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k5455826w.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb344027481/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k5455826w.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k5455826w.medres</medres>
+<nqamoyen>96.91</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k5455826w.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k5455826w</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:creator>Académie royale des sciences, des lettres et des beaux-arts de Belgique. Auteur du texte</dc:creator>
+<dc:date>1826-1904</dc:date>
+<dc:description>Etat de collection : 1826/27 (VI). 1829/30 (VIII) jusqu'à la fin ; mq tb</dc:description>
+<dc:description>Appartient à l’ensemble documentaire : GTextes1</dc:description>
+<dc:description>Appartient à l’ensemble documentaire : RfnEns0</dc:description>
+<dc:description>Appartient à l’ensemble documentaire : RfnEuro1</dc:description>
+<dc:description>Appartient à l’ensemble documentaire : RfnCoop1</dc:description>
+<dc:description>Appartient à l’ensemble documentaire : RfnHisg1</dc:description>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb328131216/date</dc:identifier>
+<dc:identifier>NUMP-15360</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:publisher>[s.n.?] (Bruxelles)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb328131216</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Philosophie, histoire, sciences de l'homme, R-5121 (19)</dc:source>
+<dc:title>Mémoires couronnés... ["puis" et mémoires des savants étrangers publ.] par l'Académie royale des sciences et belles-lettres de Bruxelles ["puis" par l'Académie royale des sciences, des lettres et des beaux-arts de Belgique]. [Collection in-4°]</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>21</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k96434903.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb328131216/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k96434903.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k96434903.medres</medres>
+<nqamoyen>99.06</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k96434903.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k96434903</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:creator>Annales des mines. Auteur du texte</dc:creator>
+<dc:creator>France. Conseil général des mines. Auteur du texte</dc:creator>
+<dc:date>1996</dc:date>
+<dc:description>Variante(s) de titre : Annales des mines. Responsabilité et environnement</dc:description>
+<dc:description>Variante(s) de titre : Responsabilité & environnement</dc:description>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb34530984r/date</dc:identifier>
+<dc:identifier>NUMP-16973</dc:identifier>
+<dc:identifier>ISSN 12684783</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:publisher>Ed. ESKA (Paris)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb34530984r</dc:relation>
+<dc:source>MINES Paris Tech, 2017-132026</dc:source>
+<dc:title>Responsabilité et environnement : série trimestrielle des Annales des mines fondées en 1794 / [dir. publ. Serge Kebabtchieff]</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>22</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k9787422v.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb34530984r/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k9787422v.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k9787422v.medres</medres>
+<nqamoyen>99.75</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k9787422v.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k9787422v</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:creator>École française d'Athènes. Auteur du texte</dc:creator>
+<dc:date>1877</dc:date>
+<dc:description>Variante(s) de titre : BCH</dc:description>
+<dc:description>Variante(s) de titre : Deltion ellēnikēs allēlographias</dc:description>
+<dc:description>Appartient à l’ensemble documentaire : RfnEns0</dc:description>
+<dc:description>Appartient à l’ensemble documentaire : RfnEuro1</dc:description>
+<dc:description>Appartient à l’ensemble documentaire : RfnCoop1</dc:description>
+<dc:description>Avec mode texte</dc:description>
+<dc:format>Nombre total de vues : 26147</dc:format>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb343482958/date</dc:identifier>
+<dc:identifier>NUMP-10418</dc:identifier>
+<dc:identifier>ISSN 00074217</dc:identifier>
+<dc:language>mul</dc:language>
+<dc:publisher>Thorin (Paris)</dc:publisher>
+<dc:publisher>Perris (Athēnai)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb343482958</dc:relation>
+<dc:relation>Autre support : Bulletin de correspondance hellénique (En ligne) = ISSN 2241-0104 (https://journals.openedition.org/bch/)</dc:relation>
+<dc:relation>Autre support : Bulletin de correspondance hellénique (En ligne) = ISSN 2241-0104 (https://www.persee.fr/collection/bch)</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Philosophie, histoire, sciences de l'homme, 8-Z-842</dc:source>
+<dc:title>Bulletin de correspondance hellénique</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>23</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k6430075q.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb343482958/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k6430075q.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k6430075q.medres</medres>
+<nqamoyen>89.97</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k6430075q.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k6430075q</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:date>1770-1780</dc:date>
+<dc:description>Variante(s) de titre : Additions de Hollande</dc:description>
+<dc:description>Variante(s) de titre : Nouvelles politiques de Hollande</dc:description>
+<dc:description>Variante(s) de titre : Additions politiques de Hollande</dc:description>
+<dc:description>Etat de collection : 1779, n° 10-18 (5 avr.-25 juin) <"Additions de Hollande" seules></dc:description>
+<dc:description>Avec mode texte</dc:description>
+<dc:format>Nombre total de vues : 308</dc:format>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb32814316d/date</dc:identifier>
+<dc:identifier>ISSN 18728898</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>A Amsterdam, chez Marc-Michel Rey. [1770?-1780?]</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb32814316d</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Philosophie, histoire, sciences de l'homme, 8-LC2-39 (A)</dc:source>
+<dc:title>Mercure de France (Amsterdam)</dc:title>
+<dc:title>Mercure de France, dédié aux oisifs</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>24</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k5653320j.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb32814316d/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k5653320j.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k5653320j.medres</medres>
+<nqamoyen>82.16</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k5653320j.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k5653320j</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:creator>Indochine française. Haut-commissariat. Auteur du texte</dc:creator>
+<dc:date>1951-1954</dc:date>
+<dc:description>Variante(s) de titre : Bulletin officiel du Commissariat général de France en Indochine et des Hauts commissariats de la République française auprès des états associés</dc:description>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb32732413d/date</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>[s.n.] (Saïgon)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb32732413d</dc:relation>
+<dc:source>Bibliothèque interuniversitaire Cujas, 2017-41624</dc:source>
+<dc:title>Bulletin officiel du Haut-commissariat de France en Indochine</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>25</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k97768373.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb32732413d/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k97768373.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k97768373.medres</medres>
+<nqamoyen>98.58</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k97768373.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k97768373</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:contributor>Boutet, Henri (1851-1919). Directeur de publication</dc:contributor>
+<dc:date>1888-1889</dc:date>
+<dc:description>Périodicité : Bi-mensuel (1888-mars 1889) ; hebdomadaire (avril-juillet 1889)</dc:description>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb32832360t/date</dc:identifier>
+<dc:identifier>ISSN 26063271</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>4 rue des Petits-Champs (Paris)</dc:publisher>
+<dc:publisher>[s.n.] (Paris)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb32832360t</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Philosophie, histoire, sciences de l'homme, 4-LC13-319</dc:source>
+<dc:title>Paris-croquis / Henri Boutet, directeur</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>26</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k98089418.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb32832360t/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k98089418.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k98089418.medres</medres>
+<nqamoyen>99.04</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k98089418.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k98089418</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:contributor>La Pijardière, Louis Lacour de (1832-1892). Éditeur scientifique</dc:contributor>
+<dc:date>1862-1863</dc:date>
+<dc:description>Périodicité : Mensuel</dc:description>
+<dc:description>Avec mode texte</dc:description>
+<dc:format>Nombre total de vues : 280</dc:format>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb32694352k/date</dc:identifier>
+<dc:identifier>NUMP-2212</dc:identifier>
+<dc:identifier>ISSN 22757813</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:publisher>J. Gay (Paris)</dc:publisher>
+<dc:publisher>A. Claudin (Paris)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb32694352k</dc:relation>
+<dc:relation>A pour reproduction : Annales du bibliophile, du bibliothécaire et de l'archiviste (Reproduction numérique) = ISSN 2452-9206 (https://gallica.bnf.fr/ark:/12148/cb32694352k/date)</dc:relation>
+<dc:relation>A pour reproduction : Annales du bibliophile, du bibliothécaire et de l'archiviste (Reproduction numérique) = ISSN 2452-9206 (https://catalog.hathitrust.org/Record/008635003)</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Littérature et art, Q-4529</dc:source>
+<dc:title>Annales du bibliophile, du bibliothécaire et de l'archiviste / publiées par Louis Lacour</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>27</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k5488425v.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb32694352k/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k5488425v.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k5488425v.medres</medres>
+<nqamoyen>94.0</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k5488425v.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k5488425v</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:contributor>La Châtre, Maurice (1814-1900). Directeur de publication</dc:contributor>
+<dc:date>1869-1869</dc:date>
+<dc:description>Variante(s) de titre : Annales des tribunaux</dc:description>
+<dc:description>Périodicité : 10 séries de 10 nos par an</dc:description>
+<dc:description>Etat de collection : 1869 (I)</dc:description>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb32694337p/date</dc:identifier>
+<dc:identifier>ISSN 24927430</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>Docks de la librairie (Paris)</dc:publisher>
+<dc:publisher>Imprimerie générale (Paris)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb32694337p</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Droit, économie, politique, F-17171</dc:source>
+<dc:title>Annales des tribunaux illustrées : procès célèbres français et étrangers / directeur Maurice Lachatre</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>28</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k9616374r.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb32694337p/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k9616374r.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k9616374r.medres</medres>
+<nqamoyen>98.65</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k9616374r.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k9616374r</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:date>1906-1921</dc:date>
+<dc:description>Périodicité : Bi-mensuel</dc:description>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb32802168d/date</dc:identifier>
+<dc:identifier>NUMP-16841</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:publisher>Impr. du Gouvernement (Bamako)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb32802168d</dc:relation>
+<dc:source>Bibliothèque interuniversitaire Cujas, 2017-41523</dc:source>
+<dc:title>Journal officiel du Haut-Sénégal-Niger</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>29</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k97762764.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb32802168d/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k97762764.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k97762764.medres</medres>
+<nqamoyen>95.0</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k97762764.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k97762764</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:creator>Rousset de Missy, Jean (1686-1762). Auteur du texte</dc:creator>
+<dc:date>1742-1745</dc:date>
+<dc:description>Périodicité : Hebdomadaire (le lundi, avec parfois un extraordinaire le jeudi)</dc:description>
+<dc:description>Avec mode texte</dc:description>
+<dc:format>Nombre total de vues : 1588</dc:format>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb32768245j/date</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>Amsterdam, chez J. Ryckhoff, le fils, près de la Bourse. M.D.CC.XLII.-[1745]</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb32768245j</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Philosophie, histoire, sciences de l'homme, G-17451</dc:source>
+<dc:title>L'Epilogueur (Amsterdam)</dc:title>
+<dc:title>L'Epilogueur</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>30</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k6565091f.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb32768245j/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k6565091f.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k6565091f.medres</medres>
+<nqamoyen>85.42</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k6565091f.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k6565091f</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:contributor>Robert-Victor. Directeur de publication</dc:contributor>
+<dc:contributor>Vaucelle, Auguste de (1818-1876). Directeur de publication</dc:contributor>
+<dc:creator>Académie des poètes (France). Auteur du texte</dc:creator>
+<dc:date>1856-1890</dc:date>
+<dc:description>Variante(s) de titre : Album de l'Académie des poètes</dc:description>
+<dc:description>Variante(s) de titre : Les Olympiades : album de l'Académie des poètes</dc:description>
+<dc:description>Variante(s) de titre : Les Olympiades : poésies</dc:description>
+<dc:description>Périodicité : Biennal (1856-1874) ; irrégulier (1877-1890)</dc:description>
+<dc:description>Etat de collection : t. 1 (1856) ; t. 3 (1860)-t. 5 (1864) ; t. 8 (1872) ; vol. 12 (1885)-vol. 13 (1890) + statuts</dc:description>
+<dc:description>Avec mode texte</dc:description>
+<dc:format>Nombre total de vues : 2811</dc:format>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb328289585/date</dc:identifier>
+<dc:identifier>ISSN 24175323</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>Robert-Victor (Paris)</dc:publisher>
+<dc:publisher>Ch. Vanier (Paris)</dc:publisher>
+<dc:publisher>Robert-Victor (Paris)</dc:publisher>
+<dc:publisher>Librairie académique Didier et cie (Paris)</dc:publisher>
+<dc:publisher>Librairie académique Didier et cie (Paris)</dc:publisher>
+<dc:publisher>E. Lachaud (Paris)</dc:publisher>
+<dc:publisher>A. Le Chevalier (Paris)</dc:publisher>
+<dc:publisher>Librairie Sandoz et Fischbacher (Paris)</dc:publisher>
+<dc:publisher>G. Fischbacher (Paris)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb328289585</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Littérature et art, 8-YE-1362</dc:source>
+<dc:title>Les Olympiades : album de l'Union des poètes</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>31</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k5408815n.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb328289585/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k5408815n.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k5408815n.medres</medres>
+<nqamoyen>95.83</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k5408815n.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k5408815n</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:contributor>Tessier, Alexandre-Henri (1741-1837). Directeur de publication</dc:contributor>
+<dc:date>1791-1792</dc:date>
+<dc:description>Variante(s) de titre : Journal d'agriculture, à l'usage des habitants de la campagne</dc:description>
+<dc:description>Périodicité : Bi-mensuel</dc:description>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb32796786n/date</dc:identifier>
+<dc:identifier>NUMP-17007</dc:identifier>
+<dc:identifier>ISSN 30738091</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:publisher>[Paris, au bureau, à l'Institution des Sourds et Muets. 1791-1792]</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb32796786n</dc:relation>
+<dc:relation>A pour reproduction : Journal d'agriculture, a l'usage des habitans de la campagne (Reproduction numérique) = ISSN 3024-6938 (https://gallica.bnf.fr/ark:/12148/cb32796786n/date) (n° 1-24)</dc:relation>
+<dc:source>Bibliothèque nationale de France</dc:source>
+<dc:title>Journal d'agriculture, a l'usage des habitans de la campagne</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>32</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k1269878t.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb32796786n/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k1269878t.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k1269878t.medres</medres>
+<nqamoyen>97.54</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k1269878t.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k1269878t</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:creator>Kergall, Joseph-Charles (1844-1931). Auteur du texte</dc:creator>
+<dc:date>1890-1908</dc:date>
+<dc:format>Nombre total de vues : 676</dc:format>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb32687083j/date</dc:identifier>
+<dc:identifier>ISSN 22733744</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>Société anonyme de publications périodiques (Paris)</dc:publisher>
+<dc:publisher>Syndicat économique agricole (Paris)</dc:publisher>
+<dc:publisher>E. Plon, Nourrit et Cie (Paris)</dc:publisher>
+<dc:publisher>[s.n.] (Paris)</dc:publisher>
+<dc:publisher>Alcan Lévy (Paris)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb32687083j</dc:relation>
+<dc:source>Bibliothèque nationale de France</dc:source>
+<dc:title>Almanach de la démocratie rurale / [Kergall, président du Syndicat économique agricole]</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>33</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k932688r.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb32687083j/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k932688r.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k932688r.medres</medres>
+<nqamoyen>83.06</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k932688r.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k932688r</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:date>18??</dc:date>
+<dc:description>Etat de collection : 1876</dc:description>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb32849139b/date</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>[s.n.?] (Paris)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb32849139b</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Philosophie, histoire, sciences de l'homme, 8-G-94</dc:source>
+<dc:title>Les Récréations illustrées de la jeunesse</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>34</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k98114726.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb32849139b/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k98114726.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k98114726.medres</medres>
+<nqamoyen>99.49</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k98114726.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k98114726</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:creator>Mali. Auteur du texte</dc:creator>
+<dc:date>1958-1960</dc:date>
+<dc:description>Périodicité : Bi-mensuel</dc:description>
+<dc:description>Appartient à l’ensemble documentaire : MAEDIGen0</dc:description>
+<dc:description>Appartient à l’ensemble documentaire : MAEDI014</dc:description>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb328021045/date</dc:identifier>
+<dc:identifier>NUMP-15416</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:publisher>Impr. du Gouvernement (Koulouba)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb328021045</dc:relation>
+<dc:source>Bibliothèque Interuniversitaire Cujas, 2015-310363</dc:source>
+<dc:title>Journal officiel de la République soudanaise</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>35</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k9642176g.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb328021045/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k9642176g.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k9642176g.medres</medres>
+<nqamoyen>99.03</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k9642176g.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k9642176g</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:contributor>Rostaing, Jules (1824-19..). Éditeur scientifique</dc:contributor>
+<dc:contributor>Darthenay, Valentin (1802-1862). Éditeur scientifique</dc:contributor>
+<dc:date>1856-1856</dc:date>
+<dc:description>Etat de collection : Jusqu'à : mai 1856 [I, n° 12]</dc:description>
+<dc:description>Avec mode texte</dc:description>
+<dc:format>Nombre total de vues : 158</dc:format>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb32877212q/date</dc:identifier>
+<dc:identifier>ISSN 20225784</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>Maison Hautecoeur frères (Paris)</dc:publisher>
+<dc:publisher>Maison Veuve L. Janet et Magnin (Paris)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb32877212q</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Littérature et art, YF-1338</dc:source>
+<dc:title>Le Théâtre chez soi : galerie dramatique : paraissant les 1, 10 et 20 de chaque mois : avec une feuille in-4° de texte, deux costumes ...</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>36</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k5515562v.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb32877212q/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k5515562v.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k5515562v.medres</medres>
+<nqamoyen>93.89</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k5515562v.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k5515562v</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:creator>Phnom-Penh. Auteur du texte</dc:creator>
+<dc:description>Etat de collection : 1924. 1936-1943.</dc:description>
+<dc:description>Avec mode texte</dc:description>
+<dc:format>Nombre total de vues : 548</dc:format>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb34445414f/date</dc:identifier>
+<dc:identifier>NUMP-4944</dc:identifier>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb34445414f</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Philosophie, histoire, sciences de l'homme, FOL-LK19-707</dc:source>
+<dc:title>Budget urbain</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>37</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k5673282v.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb34445414f/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k5673282v.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k5673282v.medres</medres>
+<nqamoyen>82.79</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k5673282v.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k5673282v</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:date>1822-1829</dc:date>
+<dc:description>Variante(s) de titre : Annales du barreau français</dc:description>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb32694349p/date</dc:identifier>
+<dc:identifier>ISSN 22644954</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>B. Warée (Paris)</dc:publisher>
+<dc:publisher>B. Warée, fils aîné (Paris)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb32694349p</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Droit, économie, politique, F-28133</dc:source>
+<dc:title>Annales du barreau français, ou Choix des plaidoyers et mémoires les plus remarquables, tant en matière civile qu'en matière criminelle, depuis Le Maistre et Patru jusqu'à nos jours, avec une notice sur la vie et les ouvrages de chaque orateur. Barreau ancien / par une société de jurisconsultes et de gens de lettres</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>38</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k9757216m.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb32694349p/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k9757216m.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k9757216m.medres</medres>
+<nqamoyen>98.71</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k9757216m.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k9757216m</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:contributor>Sansot, Edward (1864-1926). Directeur de publication</dc:contributor>
+<dc:contributor>Le Brun, Roger (1877-19..). Rédacteur</dc:contributor>
+<dc:contributor>Ceschina, Renzo Ermes (1875-1945). Rédacteur</dc:contributor>
+<dc:date>1897-1899</dc:date>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb344302839/date</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>[Anthologie-revue] (Milan)</dc:publisher>
+<dc:publisher>Librairie Fernand Clerget (Paris)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb344302839</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Réserve des livres rares, RES G-Z-212</dc:source>
+<dc:title>Anthologie-revue de France et d'Italie : recueil mensuel de littérature et d'art / dir. Edward Sansot-Orland ; réd. : Roger Le Brun, Renzo Ermes Ceschina</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>39</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k990531z.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb344302839/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k990531z.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k990531z.medres</medres>
+<nqamoyen>87.62</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k990531z.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k990531z</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:contributor>Dourille, Joseph (1789-1853). Directeur de publication</dc:contributor>
+<dc:date>1822-1823</dc:date>
+<dc:format>Nombre total de vues : 386</dc:format>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb32821047b/date</dc:identifier>
+<dc:identifier>ISSN 24301310</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>L. Janet (Paris)</dc:publisher>
+<dc:publisher>Lefuel (Paris)</dc:publisher>
+<dc:publisher>Eymery (Paris)</dc:publisher>
+<dc:publisher>Eymery (Paris)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb32821047b</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Littérature et art, YE-28296</dc:source>
+<dc:title>Les Muses du Midi (Paris)</dc:title>
+<dc:title>Les Muses du Midi, ou Choix de poésies dédiées aux dames</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>40</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k936868s.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb32821047b/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k936868s.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k936868s.medres</medres>
+<nqamoyen>82.63</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k936868s.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k936868s</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:creator>École française de Rome. Auteur du texte</dc:creator>
+<dc:date>1881-1970</dc:date>
+<dc:description>Périodicité : Annuel ; Semestriel</dc:description>
+<dc:description>Etat de collection : Tables 1881-1970</dc:description>
+<dc:description>Appartient à l’ensemble documentaire : RfnEns0</dc:description>
+<dc:description>Appartient à l’ensemble documentaire : RfnEuro1</dc:description>
+<dc:description>Appartient à l’ensemble documentaire : RfnCoop1</dc:description>
+<dc:description>Appartient à l’ensemble documentaire : RfnHisg1</dc:description>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb328129695/date</dc:identifier>
+<dc:identifier>NUMP-18744</dc:identifier>
+<dc:identifier>ISSN 02234874</dc:identifier>
+<dc:language>mul</dc:language>
+<dc:publisher>E. Thorin (Paris)</dc:publisher>
+<dc:publisher>Spithöver (Rome)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb328129695</dc:relation>
+<dc:relation>A pour reproduction : Mélanges d'archéologie et d'histoire (En ligne) = ISSN 2036-0258 (http://www.persee.fr/web/revues/home/prescript/revue/mefr)</dc:relation>
+<dc:relation>A pour reproduction : Mélanges d'archéologie et d'histoire (En ligne) = ISSN 2036-0258 (https://gallica.bnf.fr/ark:/12148/cb328129695/date)</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Recherche bibliographique, 2000-901667</dc:source>
+<dc:title>Mélanges d'archéologie et d'histoire / École française de Rome</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>41</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k6548061p.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb328129695/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k6548061p.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k6548061p.medres</medres>
+<nqamoyen>99.99</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k6548061p.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k6548061p</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:contributor>Duchemin de L'Étang, Julien-François (17..-1792?). Directeur de publication</dc:contributor>
+<dc:date>1778-1779</dc:date>
+<dc:description>Périodicité : Bimensuel</dc:description>
+<dc:description>Etat de collection : n° 1-3 (1er nov.-1er déc. 1778)</dc:description>
+<dc:description>Périodiques</dc:description>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb32780523j/date</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>(Par permission de MM. les général et intendant. De l'Imprimerie royale du Cap. [1778-1779])</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb32780523j</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Sciences et techniques, 4-T33-256</dc:source>
+<dc:subject>Sciences de la santé</dc:subject>
+<dc:title>Gazette de médecine pour les colonies.</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>42</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k96279285.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb32780523j/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k96279285.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k96279285.medres</medres>
+<nqamoyen>95.01</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k96279285.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k96279285</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:creator>Association universelle des enfants catholiques (France). Auteur du texte</dc:creator>
+<dc:date>1902-191.</dc:date>
+<dc:description>Variante(s) de titre : Petit almanach illustré pour ...</dc:description>
+<dc:description>Variante(s) de titre : Petit almanach des enfants</dc:description>
+<dc:description>Variante(s) de titre : Petit almanach des enfants : organe officiel de l'Association universelle des enfants catholiques : édition française</dc:description>
+<dc:description>Avec mode texte</dc:description>
+<dc:format>Nombre total de vues : 234</dc:format>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb328355278/date</dc:identifier>
+<dc:identifier>ISSN 25540793</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>H. Mignard (Paris)</dc:publisher>
+<dc:publisher>Librairie de l'Œuvre de St-Charles (Lille)</dc:publisher>
+<dc:publisher>Société Saint-Augustin, Desclée, De Brouwer et Cie (Lille)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb328355278</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Philosophie, histoire, sciences de l'homme, 8-R-26930</dc:source>
+<dc:title>Petit almanach illustré des enfants des catéchismes et des écoles / Association universelle des enfants catholiques</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>43</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k5658286h.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb328355278/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k5658286h.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k5658286h.medres</medres>
+<nqamoyen>91.96</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k5658286h.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k5658286h</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:creator>Académie des sciences, belles-lettres et arts (Lyon). Auteur du texte</dc:creator>
+<dc:date>1892-1926</dc:date>
+<dc:description>Appartient à l’ensemble documentaire : RhoneAlp1</dc:description>
+<dc:description>Avec mode texte</dc:description>
+<dc:format>Nombre total de vues : 1116</dc:format>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb32681162d/date</dc:identifier>
+<dc:identifier>ISSN 22715711</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>J.-B. Baillière et fils (Paris)</dc:publisher>
+<dc:publisher>A. Rey (Lyon)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb32681162d</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Collections numérisées, 2008-78958</dc:source>
+<dc:title>Rapports, fondations, concours, notices biographiques (Académie des sciences, belles-lettres et arts de Lyon)</dc:title>
+<dc:title>Rapports, fondations, concours, notices biographiques / Académie des sciences, belles-lettres et arts de Lyon</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>44</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k54555953.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb32681162d/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k54555953.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k54555953.medres</medres>
+<nqamoyen>96.86</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k54555953.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k54555953</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:creator>Syndicat des chimistes du Sud-Ouest. Auteur du texte</dc:creator>
+<dc:date>1906-1906</dc:date>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb328009475/date</dc:identifier>
+<dc:identifier>ISSN 25543377</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>L. Boudet (Fumel (Lot-&-Garonne))</dc:publisher>
+<dc:publisher>Imprimerie et lithographie Forestié père et fils (Montauban)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb328009475</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Droit, économie, politique, JO-58328</dc:source>
+<dc:title>Le Journal du laboratoire : revue mensuelle de chimie pratique, industrielle, agricole, commerciale et médicale : organe officiel du Syndicat des chimistes du Sud-Ouest... / rédacteur en chef : L. Boudet, chimiste</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>45</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k45464329.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb328009475/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k45464329.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k45464329.medres</medres>
+<nqamoyen>86.92</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k45464329.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k45464329</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:creator>Rousset de Missy, Jean (1686-1762). Auteur du texte</dc:creator>
+<dc:date>1745-1746</dc:date>
+<dc:description>Variante(s) de titre : Le Demosthenes moderne</dc:description>
+<dc:description>Variante(s) de titre : Le Demosthene moderne</dc:description>
+<dc:description>Périodicité : Hebdomadaire (le lundi, avec parfois un extraordinaire le jeudi)</dc:description>
+<dc:description>Avec mode texte</dc:description>
+<dc:format>Nombre total de vues : 272</dc:format>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb32755653b/date</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>A Utrecht, chez Lobedanius, libraire. MDCCXLV.-[1746]</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb32755653b</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Philosophie, histoire, sciences de l'homme, G-17304</dc:source>
+<dc:title>Le Demosthene moderne ou Reflexions, sur les affaires présentes de l'Europe.</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>46</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k6564054v.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb32755653b/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k6564054v.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k6564054v.medres</medres>
+<nqamoyen>86.14</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k6564054v.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k6564054v</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:contributor>Lacroix, Léon. Directeur de publication</dc:contributor>
+<dc:creator>Société d'archéologie et d'histoire du Tonnerrois. Auteur du texte</dc:creator>
+<dc:date>1938-1939</dc:date>
+<dc:description>Appartient à l’ensemble documentaire : Bourgogn1</dc:description>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb32723792d/date</dc:identifier>
+<dc:identifier>ISSN 19674422</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher> (Montbard)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb32723792d</dc:relation>
+<dc:source>Archives départementales de la Côte-d'Or, 2016-113967</dc:source>
+<dc:title>Bulletin de la Société d'archéologie et d'histoire de Tonnerre / président Léon Lacroix</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>47</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k97160457.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb32723792d/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k97160457.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k97160457.medres</medres>
+<nqamoyen>98.5</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k97160457.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k97160457</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:creator>Uusfilologinen yhdistys (Helsinki). Auteur du texte</dc:creator>
+<dc:date>1899</dc:date>
+<dc:description>Etat de collection : 1929-1930</dc:description>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb344691082/date</dc:identifier>
+<dc:identifier>NUMP-18152</dc:identifier>
+<dc:identifier>ISSN 00283754</dc:identifier>
+<dc:language>mul</dc:language>
+<dc:publisher>Neuphilologischer Verein in Helsinki (Helsinki)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb344691082</dc:relation>
+<dc:relation>A pour reproduction : Neuphilologische Mitteilungen (Internet) = ISSN 2736-9714 (https://gallica.bnf.fr/ark:/12148/cb344691082/date)</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Littérature et art, 8-Z-16729</dc:source>
+<dc:title>Neuphilologische Mitteilungen</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>48</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k1416815g.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb344691082/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k1416815g.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k1416815g.medres</medres>
+<nqamoyen>88.37</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k1416815g.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k1416815g</uri>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>http://www.openarchives.org/OAI/2.0/OAIdc.xsd</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<oai_dc:dc>
+<dc:date>1844-1844</dc:date>
+<dc:description>Périodicité : Hebdomadaire</dc:description>
+<dc:description>Avec mode texte</dc:description>
+<dc:format>Nombre total de vues : 20</dc:format>
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/cb328042623/date</dc:identifier>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:publisher>Librairie Gauthier et Monighetti (Moscou)</dc:publisher>
+<dc:publisher>F. Bellizart et Cie (Saint-Pétersbourg)</dc:publisher>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb328042623</dc:relation>
+<dc:source>Bibliothèque nationale de France, département Littérature et art, Z-2051</dc:source>
+<dc:title>Le Kremlin : journal artistique, littéraire et nouvelliste</dc:title>
+<dc:type>text</dc:type>
+<dc:type>texte</dc:type>
+<dc:type>publication en série imprimée</dc:type>
+<dc:type>printed serial</dc:type>
+</oai_dc:dc>
+</srw:recordData>
+<srw:recordIdentifier>ark</srw:recordIdentifier>
+<srw:recordPosition>49</srw:recordPosition>
+<srw:extraRecordData>
+<epubFile/>
+<highres>https://gallica.bnf.fr/ark:/12148/bpt6k6274613j.highres</highres>
+<infoSupModifiable/>
+<link>https://gallica.bnf.fr/ark:/12148/cb328042623/date</link>
+<lowres>https://gallica.bnf.fr/ark:/12148/bpt6k6274613j.lowres</lowres>
+<medres>https://gallica.bnf.fr/ark:/12148/bpt6k6274613j.medres</medres>
+<nqamoyen>100.0</nqamoyen>
+<provenance>Gallica</provenance>
+<thumbnail>https://gallica.bnf.fr/ark:/12148/bpt6k6274613j.thumbnail</thumbnail>
+<typedoc>periodiques</typedoc>
+<uri>bpt6k6274613j</uri>
+</srw:extraRecordData>
+</srw:record>
+</srw:records>
+<srw:nextRecordPosition>51</srw:nextRecordPosition>
+</srw:searchRetrieveResponse>

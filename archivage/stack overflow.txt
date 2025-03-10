@@ -1,0 +1,123 @@
+Hi guys i am brand new with webscraping.
+
+I am trying to webscrap the the data within the "informations détaillées" section of this webpage (https://gallica.bnf.fr/ark:/12148/cb42768809f/date) so that I will be able to fill in a SQL database with every field it has.
+
+This is a Test URL.
+I got a list of 500 URL similar to this one that I requested with this website's API. And I intend to apply my Python function to all the URLs of this list once it works.
+
+Any piece of advice to help me extract the information I need from this webpage please?
+TY so much!
+
+First I tried to use beautifulsoup but the problem is that the "informations détaillées" section appears only when you click the dropdown button.
+
+I tried several beautiful soup bites of codes though, like the following one, but it didn't work:
+
+python
+Copy
+def get_metadata_bs4(url):
+    response = requests.get(url)
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    try:
+        
+        title = soup.find("h1").text.strip() if soup.find("h1") else "Titre inconnu"
+
+        
+        publisher = soup.select_one("dl dd:nth-of-type(1)").text.strip() if soup.select_one("dl dd:nth-of-type(1)") else "Auteur inconnu"
+
+        
+        Date of publication = soup.select_one("dl dd:nth-of-type(2)").text.strip() if soup.select_one("dl dd:nth-of-type(2)") else "Date inconnue"
+
+        return {"title": title, "author": author, "Date of publication": Date of publication}
+    
+    except Exception as e:
+        print(f"Erreur pour {url}: {e}")
+        return None
+
+# Tester avec un seul lien
+url_test = "https://gallica.bnf.fr/ark:/12148/cb42768809f/date"
+print(get_metadata_bs4(url_test))
+So I tried selenium, but this is is my first time using this Python Library… I tried to find the correct X-Path of the source code and replace "metadata-class" with this X-path within the following code block:
+
+python
+Copy
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+import time
+
+# Configuration Selenium
+chrome_options = Options()
+chrome_options.add_argument("--headless")  # Mode sans interface graphique
+driver = webdriver.Chrome(options=chrome_options)
+
+def get_metadata_from_notice(url):
+    driver.get(url)
+    time.sleep(2)  # Laisser le temps de charger
+    
+    try:
+        # Cliquer sur le dropdown "Informations détaillées"
+        dropdown = WebDriverWait(driver, 5).until(
+            EC.element_to_be_clickable((By.XPATH, "//div[contains(text(), 'Informations détaillées')]"))
+        )
+        dropdown.click()
+        time.sleep(2)  # Attendre le chargement après le clic
+    except Exception as e:
+        print(f"⚠️ Erreur lors du clic sur {url} : {e}")
+        return None
+
+    try:
+        # Extraction des métadonnées après ouverture du dropdown
+        metadata_section = driver.find_element(By.XPATH, "//div[@class='metadata-class']")  # À remplacer par la bonne classe
+        metadata_text = metadata_section.text
+        return {"url": url, "metadata": metadata_text}
+    except Exception as e:
+        print(f"⚠️ Impossible de récupérer les métadonnées pour {url} : {e}")
+        return None
+
+# Test sur une URL
+test_url = "https://gallica.bnf.fr/ark:/12148/cb42768809f/date"
+print(get_metadata_from_notice(test_url))
+
+# Fermer Selenium
+driver.quit()
+but it keeps giving me results like this one:
+
+Copy
+⚠️ Impossible de récupérer les métadonnées pour https://gallica.bnf.fr/ark:/12148/cb42768809f/date
+⚠️ Erreur sur https://gallica.bnf.fr/ark:/12148/cb452698066/date : Message: 
+Stacktrace:
+    GetHandleVerifier [0x00007FF7940A02F5+28725]
+    (No symbol) [0x00007FF794002AE0]
+    (No symbol) [0x00007FF793E9510A]
+    (No symbol) [0x00007FF793EE93D2]
+    (No symbol) [0x00007FF793EE95FC]
+    (No symbol) [0x00007FF793F33407]
+    (No symbol) [0x00007FF793F0FFEF]
+    (No symbol) [0x00007FF793F30181]
+    (No symbol) [0x00007FF793F0FD53]
+    (No symbol) [0x00007FF793EDA0E3]
+    (No symbol) [0x00007FF793EDB471]
+    GetHandleVerifier [0x00007FF7943CF30D+3366989]
+    GetHandleVerifier [0x00007FF7943E12F0+3440688]
+    GetHandleVerifier [0x00007FF7943D78FD+3401277]
+    GetHandleVerifier [0x00007FF79416AAAB+858091]
+    (No symbol) [0x00007FF79400E74F]
+    (No symbol) [0x00007FF79400A304]
+    (No symbol) [0x00007FF79400A49D]
+    (No symbol) [0x00007FF793FF8B69]
+    BaseThreadInitThunk [0x00007FFC0A7D259D+29]
+    RtlUserThreadStart [0x00007FFC0BA0AF38+40]
+
+
+
+J'aimerais maintenant appliquer cette fonction à l'ensemble de la liste de 5000 url extraites, mais pour le moment je ne souhaite pas en faire un dataframe (contrairement à la fin de ce bloc de code).
+L'idée est d'obtenir les informations clés reliées à chaque URL (Titre 1,Titre 2, Éditeur , Date d'édition, etc...) compliées pour les 5000 url de la liste au sein d'un même fichier json ou csv.
+
+Lors des prochaines étapes, je vais:
+- commit et push ce fichier ainsi que tout mon travail lié dans un nouveau repo github
+-  nettoyer les doublons et les outliers en exploitant ce fichier sous forme de dataframe pandas, extraire l'identifiant du champ "source" pour chaque url.
+- classer les données dans différentes tables Mysql (une pour les titres, une pour les éditeurs, une pour les auteurs, une pour la source) , ainsi qu'une table crée sur mongodb pour les commentaires liés à chaque titre (plus longs) et éventuellement plus tard une photo que je scrapperai pour chaque titre si j'ai le temps. 
