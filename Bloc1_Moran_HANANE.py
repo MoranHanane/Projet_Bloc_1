@@ -432,14 +432,14 @@ for _, row in df.iterrows():
         mysql_cursor.execute(sql_insert_sujet, (row["Sujet :"],))
         mysql_conn.commit()
 
-    # Insérer les notices correspondantes dans MongoDB
+    # Insértion des notices correspondantes dans MongoDB
     notices_collection.insert_one({
         "id_Titre": id_titre,
         "Notice_ensemble": row["Notice d'ensemble :"],
         "Notice_catalogue": row["Notice du catalogue :"]
     })
 
-# Fermer les connexions
+# Fermeture des connexions
 mysql_cursor.close()
 mysql_conn.close()
 mongo_client.close()
